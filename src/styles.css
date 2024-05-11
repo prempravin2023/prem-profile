@@ -51,7 +51,7 @@
         background-color: white;
     }
     .article1{
-        background-color:white;
+       background-color:white;
         
         
             
@@ -91,7 +91,7 @@
         background-color:white;
     }
     
-    .article2{
+    #article2{
         background-color:white;
         
         box-shadow: 1px 1px 8px white;
@@ -123,8 +123,9 @@
     
     }
     
-    .article2{
+    #article2{
         background-color:#010101;
+      
     }
     .heading{
         font-size: 80px;
@@ -208,6 +209,23 @@ text-align: center;
         border:1px solid #F39D13;
         padding:10px;
     }*/
+    .list .prem{
+      color: aqua;
+    }
+    .rotate{
+      transform: rotateY(360deg);
+      transform-style: preserve-3d;
+      transition: transform 2s;
+      backface-visibility:hidden ;
+    }
+    .rotate1{
+      transform: rotateY(-360deg);
+      transform-style: preserve-3d;
+      transition: transform 2s;
+      backface-visibility:hidden ;
+    }
+ 
+    
     
  @media screen and (max-width:815px) {
     .banner{
