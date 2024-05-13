@@ -125,6 +125,7 @@
     
     #article2{
         background-color:#010101;
+    
       
     }
     .heading{
@@ -318,6 +319,15 @@ text-align: center;
     }
     
  } 
+ @media screen and (max-width:1180px){
+  .intern{
+    color: white;
+    width: 160px;
+text-align: center;
+    font-size: 30px;
+    
+  }
+ }
  @media screen and (max-width:850px){
     h3{
         font-size:90px;
@@ -345,6 +355,23 @@ text-align: center;
         font-size: 30px;
        width:80px;
     }
+    
+    .intern{
+      color: white;
+      width: px;
+
+      font-size: 29px;
+      
+    }
+    /*.cv a{
+      border: px solid blue;
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      padding: 5px;
+      background-color: #F39D13;
+      border-radius: 5px;
+    }*/
 
     }
   
